@@ -40,11 +40,17 @@ a {
     color: var(--text-color);
     text-decoration: none;
     font-style: italic;
-}a:visited {
+}
+
+a[href]:visited {
     color: var(--color-dark-grey);
-}a:hover {
+}
+
+a[href]:hover {
     text-decoration: underline;
-}a:active {
+}
+
+a[href]:active {
     background-color: var(--color-light-grey);
 }
 
