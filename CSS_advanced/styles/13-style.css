@@ -28,31 +28,30 @@ html {
     scroll-behavior: smooth;
 }
 
-body, a{
+body {
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-regular);
     color: var(--text-color);
     line-height: var(--line-height-base);
 }
 
 a {
+    color: var(--text-color);
     text-decoration: none;
-}
-
-a[href]:visited {
     font-style: italic;
 }
 
-a[href]:hover {
+a:visited {
+    color: var(--color-dark-grey);
+}
+
+a:hover {
     text-decoration: underline;
 }
 
-a[href]:active {
+a:active {
     background-color: var(--color-light-grey);
-}
-
-body{
-    font-family: var(--font-family-base);
-    font-size: var(--font-size-medium);
-    font-weight: var(--font-weight-regular);
 }
 
 .visually-hidden {
@@ -77,11 +76,17 @@ body{
     text-transform: var(--section-tagline-transform);
 }
 
-.card-category, .section-tagline {
+.card-category,
+.section-tagline {
     color: var(--color-primary);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
 }
