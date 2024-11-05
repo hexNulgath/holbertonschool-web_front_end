@@ -40,14 +40,11 @@ a {
     color: var(--text-color);
     text-decoration: none;
     font-style: italic;
-}
-a:visited {
+}a:visited {
     color: var(--color-dark-grey);
-}
-a:hover {
+}a:hover {
     text-decoration: underline;
-}
-a:active {
+}a:active {
     background-color: var(--color-light-grey);
 }
 
