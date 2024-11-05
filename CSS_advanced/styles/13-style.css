@@ -28,12 +28,12 @@ html {
     scroll-behavior: smooth;
 }
 
-body, a[href]{
+body, a{
     color: var(--text-color);
     line-height: var(--line-height-base);
 }
 
-a[href] {
+a {
     text-decoration: none;
 }
 
