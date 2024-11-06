@@ -58,14 +58,17 @@ body {
     line-height: var(--line-height-base);
 }
 
-a[href] {
+body, a:link{
     color: var(--text-color);
+    line-height: var(--line-height-base);
+}
+
+a:link {
     text-decoration: none;
-    font-style: italic;
 }
 
 a:visited {
-    color: var(--color-dark-grey);
+    font-style: italic;
 }
 
 a:hover {
