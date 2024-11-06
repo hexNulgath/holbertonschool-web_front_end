@@ -34,7 +34,7 @@
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
     --nav-item-display: inline-block;
-    --nav-item-margin: 300% 0 0 0;
+    --nav-item-margin: 0 0 300% 0;
     --nav-item-link-hover: var(--color-primary);
     --nav-item-letter-spacing: 4%;
 }
@@ -105,7 +105,7 @@ a:active {
 }
 
 .nav-link:hover {
-    background-color: var(--nav-item-link-hover);
+    color: var(--nav-item-link-hover);
 }
 
 .visually-hidden {
