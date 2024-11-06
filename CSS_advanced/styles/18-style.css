@@ -80,7 +80,8 @@ a:active {
 
 
 .navbar-menu {
-    float: right;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .nav {
