@@ -143,8 +143,8 @@ a:active {
 
 .nav .nav-link {
     display: block;
-    padding-top: initial 50%;
-    padding-bottom: initial 50%
+    padding-top: 50vh;
+    padding-bottom: 50vh;
 }
 
 .nav .nav-link:hover {
