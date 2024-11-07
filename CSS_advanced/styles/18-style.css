@@ -1,6 +1,7 @@
 @import 'normalize.min.css';
 
 :root {
+    --padding: 20px;
     --color-primary: #d73953;
     --color-black: #090909;
     --color-white: #ffffff;
@@ -143,9 +144,10 @@ a:active {
 
 .nav .nav-link {
     display: block;
-    padding-top: 50vh;
-    padding-bottom: 50vh;
+    padding-top: calc(var(--padding) / 2);
+    padding-bottom: calc(var(--padding) / 2);
 }
+
 
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
