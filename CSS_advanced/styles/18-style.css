@@ -45,7 +45,6 @@
 
 html {
     font-size: 62.5%;
-    padding: 1rem;
     scroll-behavior: smooth;
 }
 
@@ -144,8 +143,7 @@ a:active {
 
 .nav .nav-link {
     display: block;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding: 0 0.5rem;
 }
 
 
