@@ -141,10 +141,10 @@ a:active {
     margin: var(--nav-item-margin);
 }
 
-.nav.nav-link {
+.nav .nav-link {
     display: block;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: initial 50%;
+    padding-bottom: initial 50%
 }
 
 .nav .nav-link:hover {
