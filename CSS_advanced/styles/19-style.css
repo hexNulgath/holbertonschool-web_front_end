@@ -1,8 +1,8 @@
 @import 'normalize.min.css';
 
 :root {
-    --root-size: auto;
-    --half-root-size: calc(var(--root-size) / 2);
+    --padding: 20px; /* Define the original padding value */
+    --half-root-size: calc(var(--padding) / 2); /* Calculate half of padding */
     --color-primary: #d73953;
     --color-black: #090909;
     --color-white: #ffffff;
