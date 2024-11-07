@@ -1,7 +1,6 @@
 @import 'normalize.min.css';
 
 :root {
-    --root-element: 1.6rem;
     --color-primary: #d73953;
     --color-black: #090909;
     --color-white: #ffffff;
@@ -34,9 +33,9 @@
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
     --nav-item-display: inline-block;
+    --nav-item-letter-spacing: 4%;
     --nav-item-margin: 0 0 300% 0;
     --nav-item-link-hover: var(--color-primary);
-    --nav-item-letter-spacing: 4%;
 }
 
 *, *::before,
@@ -78,35 +77,6 @@ a:active {
     background-color: var(--color-light-grey);
 }
 
-
-.navbar-menu {
-    float: right;
-}
-
-.nav {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-align: center;
-}
-
-.nav-item {
-    font-family: var(--nav-item-font-family);
-    font-weight: var(--nav-item-font-weight);
-    font-size: var(--nav-item-font-size);
-    letter-spacing: var(--nav-item-letter-spacing);
-    display: var(--nav-item-display);
-    margin: var(--nav-item-margin);
-}
-
-nav .nav-link {
-    display: block;
-    padding: 50% 100%;
-}
-
-nav .nav-link:hover {
-    color: var(--nav-item-link-hover);
-}
 
 .visually-hidden {
     display: none;
@@ -153,6 +123,35 @@ nav .nav-link:hover {
 .card-category,
 .section-tagline {
     color: var(--color-primary);
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.nav .nav-item {
+    font-family:var(--nav-item-font-family);
+    font-weight: var(--nav-item-font-weight);
+    font-size: var(--nav-item-font-size);
+    letter-spacing: var(--nav-item-letter-spacing);
+    display: var(--nav-item-display);
+    margin: var(--nav-item-margin);
+}
+
+.nav .nav-link {
+    display: block;
+    padding: 100% 50%;
+}
+
+.nav .nav-link:hover {
+    color: var(--nav-item-link-hover);
+}
+
+.navbar-menu {
+    float: right;
 }
 
 h1,
