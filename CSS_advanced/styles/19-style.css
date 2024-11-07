@@ -157,13 +157,13 @@ a:active {
     float: right;
 }
 
-ul .row {
+ul.row {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-ul .footer {
+ul.footer {
     text-align: right;
 }
 
