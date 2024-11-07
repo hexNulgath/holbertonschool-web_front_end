@@ -99,12 +99,12 @@ a:active {
     margin: var(--nav-item-margin);
 }
 
-.nav-link {
+nav .nav-link {
     display: block;
     padding: 50% 100%;
 }
 
-.nav-link:hover {
+nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
 
