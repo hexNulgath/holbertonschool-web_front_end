@@ -185,7 +185,7 @@ a:active {
     position: relative;
 }
 
-.card-testimonial .card-quote::backdrop {
+.card-testimonial .card-quote::before {
     content: "\201c";
     position: absolute;
     top: -4.5rem;
